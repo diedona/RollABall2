@@ -49,7 +49,6 @@ public class PlayerController : MonoBehaviour
 
     private void checkForOOB()
     {
-        //print("Y: " + _controller.transform.position.y);
         if(_controller.transform.position.y < -10)
         {
             this.spawn();
